@@ -1,0 +1,62 @@
+/*common start*/
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+/*common end*/
+/*header start*/
+header{
+	border-bottom: 2px solid #eef0f3;
+	    padding: 10px 0;
+}
+.wrapper{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	width: 10%;
+	/*border: 1px solid;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: left;
+	width: 40%;
+	/*border: 1px solid;*/
+}
+.menu ul{
+	margin: 10px 0;
+}
+.menu ul li{
+	list-style: none;
+	    float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 25px;
+	color: #292640;
+	display: inline-block;
+}
+.purchase {
+  width: 30%;
+  float: right;
+  text-align: end;
+}
+.common-btn a {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #ff6162;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.purchase a:hover {
+  background-color: #ff7474;
+
+/*header end*/
